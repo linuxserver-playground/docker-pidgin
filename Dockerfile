@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # build stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.24 AS plugins
+FROM ghcr.io/linuxserver-playground/baseimage-alpine:3.24 AS plugins
 
 RUN \
   echo "**** install dev deps ****" && \
@@ -90,7 +90,7 @@ RUN \
   make DESTDIR="/buildout" install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-selkies:alpine324
+FROM ghcr.io/linuxserver-playground/baseimage-selkies:alpine324
 
 # set version label
 ARG BUILD_DATE
