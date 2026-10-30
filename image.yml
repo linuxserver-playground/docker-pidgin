@@ -11,6 +11,11 @@ upstream:
     type: alpine_apk
     repo_url: http://dl-cdn.alpinelinux.org/alpine/v3.24/community/
     package: pidgin
+  sponsor:
+  - name: Donate to Instant Messaging Freedom
+    url: https://imfreedom.org/donate/
+  - name: Patreon (Gary Kramlich, Pidgin lead developer)
+    url: https://patreon.com/rw_grim
 
 release:
   branch: master
