@@ -149,7 +149,7 @@ fftw-single-libs                                                              3.
 file                                                                          5.47-r2                                 apk                              
 findmnt                                                                       2.42.3-r1                               apk                              
 findutils                                                                     4.10.0-r1                               apk                              
-firefox                                                                       151.0.3-r0                              apk                              
+firefox                                                                       160.0-r0                                apk                              
 flock                                                                         2.42.3-r1                               apk                              
 font-adobe-100dpi                                                             1.0.4-r2                                apk                              
 font-adobe-75dpi                                                              1.0.4-r2                                apk                              
